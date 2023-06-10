@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --rotation: 0deg;
+}
+body{
+    background-color: black;
+    color: white !important;
+}
+.clock{
+    color: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.numbers{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.second,.minute,.hour{
+    background-color: red;
+    width: 2px;
+    height: 120px;
+    position: absolute;
+    bottom: 50%;
+    transform-origin: bottom;
+}
+.second{
+    transform: rotate(var(--rotation));
+}
+.hour{
+    width: 8px;
+    height: 90px;
+    background-color: white;
+    transform: rotate(0deg);
+}
+.minute{
+    width: 5px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(0deg);
+}
+.center{
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: 2;
+}
+.clock>:nth-child(2){
+    transform: rotate(30deg);
+}
+.clock>:nth-child(3){
+    transform: rotate(60deg);
+}
+.clock>:nth-child(4){
+    transform: rotate(90deg);
+}
+.clock>:nth-child(5){
+    transform: rotate(120deg);
+}
+.clock>:nth-child(6){
+    transform: rotate(150deg);
+}
+.clock>:nth-child(7){
+    transform: rotate(180deg);
+}
+.clock>:nth-child(8){
+    transform: rotate(210deg);
+}
+.clock>:nth-child(9){
+    transform: rotate(240deg);
+}
+.clock>:nth-child(10){
+    transform: rotate(270deg);
+}
+.clock>:nth-child(11){
+    transform: rotate(300deg);
+}
+.clock>:nth-child(12){
+    transform: rotate(330deg);
+}
+.clock>:nth-child(13){
+    transform: rotate(360deg);
+}
