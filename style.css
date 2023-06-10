@@ -86,3 +86,36 @@ body{
 .clock>:nth-child(13){
     transform: rotate(360deg);
 }
+.clock>:nth-child(2)>p{
+    transform: rotate(-30deg);
+}
+.clock>:nth-child(3)>p{
+    transform: rotate(-60deg);
+}
+.clock>:nth-child(4)>p{
+    transform: rotate(-90deg);
+}
+.clock>:nth-child(5)>p{
+    transform: rotate(-120deg);
+}
+.clock>:nth-child(6)>p{
+    transform: rotate(-150deg);
+}
+.clock>:nth-child(7)>p{
+    transform: rotate(180deg);
+}
+.clock>:nth-child(8)>p{
+    transform: rotate(-210deg);
+}
+.clock>:nth-child(9)>p{
+    transform: rotate(120deg);
+}
+.clock>:nth-child(10)>p{
+    transform: rotate(90deg);
+}
+.clock>:nth-child(11)>p{
+    transform: rotate(60deg);
+}
+.clock>:nth-child(12)>p{
+    transform: rotate(30deg);
+}
